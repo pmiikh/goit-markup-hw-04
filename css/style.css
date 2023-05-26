@@ -1,0 +1,527 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+}
+
+:root {
+    --main-color-dark:  #2e2f42;
+    --main-color: #FFFFFF;
+    --second-main-color:#F4F4FD;
+    --logo-web-color:#4d5ae5;
+    --main-text-color:  #434455;
+    --hover-color: #404BBF;
+    --border-menu-btn: #E7E9FC;
+   
+  }
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color:  var(--main-color);
+    color: var(--main-text-color);
+}
+
+.link {
+    text-decoration:none;
+}
+
+
+
+.list{
+    list-style-type: none;
+}
+/* ------------header----------------------------- */
+.header{
+    border-bottom: 1px solid var(--border-menu-btn);
+    /* padding: 24px 0; */
+    
+}
+/* --------------------logo------------------------*/
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+
+    color: var(--logo-web-color);
+
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+
+    margin-right: 76px;
+    
+   
+}
+
+.logo-studio{
+    color: var(--main-color-dark);
+}
+
+/* -------------------navigation----------------- */
+.header-flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-flex{
+    display: flex;
+    gap: 40px;
+}
+
+.address-flex{
+    margin-left: auto;
+}
+
+.address-flex-list{
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color-dark);
+
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-link:hover, 
+.nav-link:focus{
+    color: var(--hover-color);
+}
+
+
+.address{
+    font-style: normal;
+}
+
+.address-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: var(--hover-color);
+}
+
+/*--------------------------- main page ----------------------------*/
+.main-page{
+    /* width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
+    text-align: center; */
+
+    background:  var(--main-color-dark);
+    padding: 188px 0;
+
+    
+}
+
+
+
+.main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--main-color);
+
+    margin:0 auto;
+    margin-bottom: 48px;
+    
+
+    max-width: 496px;
+
+
+    
+}
+
+.main-btn{
+    background-color: var(--logo-web-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+
+    color: var(--main-color);
+    cursor: pointer;
+
+    /* padding: 16px 32px; */
+    min-width: 169px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.main-btn:hover,
+.main-btn:focus{
+    background: var(--hover-color);
+}
+
+/* -------------properities--------------------- */
+.prop-page{
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.prop-flex{
+    display: flex;
+    gap: 24px; /*-----???*/
+}
+
+.prop-item{
+    width: calc((100% - 72px) / 4);
+}
+/* .prop-list-flex{
+    display: flex;
+    flex-direction: column;
+} */
+
+.prop-heading{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+   
+    letter-spacing: 0.02em;
+    color: var(--main-color-dark);
+
+    max-width: 264px;
+
+    margin-bottom: 8px;
+
+    /* padding-top: 120px; */
+}
+
+.prop-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    
+/* 
+    padding-bottom: 120px; */
+}
+
+/* ------------what we are doing----------- */
+.occupation-page{
+    padding-bottom: 120px;
+}
+
+
+.occupation-heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color-dark);
+
+    margin-bottom: 72px;
+}
+
+img{
+    display: block;
+}
+
+.occup-img{
+    width: calc((100% - 48px)/3);
+}
+
+.occup-list-flex{
+    display: flex;
+    gap: 24px;
+}
+
+/*-----------Our team-----------------  */
+
+
+.team-page{
+    background-color: var(--second-main-color);
+
+    padding: 120px 0;
+}
+
+.team-flex{
+    display: flex;
+    gap:24px;
+}
+
+
+.team-heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-color-dark);
+
+    margin-bottom: 72px;
+}
+
+.card{
+    background-color: var(--main-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+    width: calc((100% - 72px) / 4);
+}
+
+.card-info{
+    padding: 32px 16px;
+}
+
+.card-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-color-dark);
+
+    margin-bottom: 8px;
+
+}
+
+.card-descr{
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+/* 
+    padding-left: 68px;
+    padding-right: 68px; */
+}
+
+/* ----------footer page----------- */
+.footer{
+    /* width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px; */
+
+    background: var(--main-color-dark);
+    padding: 100px 0;
+}
+
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 0;
+}
+
+.footer-logo-color{
+    color: var(--second-main-color);
+}
+
+.footer-p{
+    width: 264px;
+    height: 72px;
+    /* left: 156px;
+    top: 2420px;  */
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--second-main-color);
+}
+
+
+/* -----------------------portfolio page----------------- */
+/* buttons */
+.visually-hidden {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+
+.offer-menu{
+    padding: 96px 0 120px 0;
+}
+.offer-buttons{
+    min-width: 69px;
+}
+
+.menu-btn-flex{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+
+.offer-btn{
+
+    background: var(--second-main-color);
+    border: 1px solid var(--border-menu-btn);
+  
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+
+    color: var(--logo-web-color);
+    cursor: pointer;
+
+    padding: 12px 24px;
+}
+
+.offer-btn:active,
+.offer-btn:hover,
+.offer-btn:focus
+{
+    border: 1px solid transparent;
+    background-color: var(--hover-color);
+    color: var(--main-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.offer-cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+
+}
+
+.link-card-item{
+    width: calc((100% - 48px)/3);
+
+
+    display: flex;
+}
+
+
+.link-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-link{
+    text-decoration: none;
+    color: var(--main-color);
+
+    
+}
+
+
+.offer-info{
+    padding: 32px 16px;
+    border: 1px solid var(--border-menu-btn);
+    border-top: none;
+}
+
+.offer-heading{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    letter-spacing: 0.02em;
+    color: var(--main-color-dark);
+
+    margin-bottom: 8px;
+}
+
+.offer-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+}
