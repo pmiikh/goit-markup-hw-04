@@ -57,6 +57,9 @@ body{
 /* ------------header----------------------------- */
 .header{
     border-bottom: 1px solid var(--border-menu-btn);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
     /* padding: 24px 0; */
     
 }
@@ -165,6 +168,7 @@ body{
     background-position: center;
     background-size: cover;
     padding: 188px 0;
+    max-width: 1440px;
 
     
 }
@@ -269,10 +273,10 @@ body{
 
     margin-bottom: 8px;
 }
-.prop-icon{
+/* .prop-icon{
     width: 64px;
     height: 64px;
-}
+} */
 
 .prop-heading{
     font-weight: 500;
@@ -430,10 +434,10 @@ img{
     background-color:var(--hover-color)
 }
 
-.team-icon{
+/* .team-icon{
     width: 16px;
     height: 16px;
-}
+} */
 /* --------------------------------Customers--------------------- */
 .customers-page {
     padding: 120px 0;
@@ -527,10 +531,13 @@ img{
 
 .footer-container{
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
-.footer-socials {
+
+.footer-logo-p{
+    margin-right: 120px;
 }
+
 .footer-soc-p {
     font-weight: 500;
     font-size: 16px;
