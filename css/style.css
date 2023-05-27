@@ -533,10 +533,7 @@ img{
 .footer-container{
     display: flex;
     align-items: baseline;
-}
-
-.footer-logo-p{
-    margin-right: 120px;
+    gap: 120px;
 }
 
 .footer-soc-p {
