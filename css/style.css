@@ -448,8 +448,9 @@ img{
 
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--main-color-dark);
 
-    margin-bottom: 72px;;
+    margin-bottom: 72px;
 }
 
 .company-list {
@@ -479,8 +480,8 @@ img{
 }
 
 .logo-icon{
-    width: 104px;
-    height: 56px;
+    /* width: 104px;
+    height: 56px; */
     fill: var(--customer-color);
 }
 
@@ -559,10 +560,10 @@ img{
    
 }
 
-.footer-icon {
+/* .footer-icon {
     width: 24px;
     height: 24px;
-}
+} */
 
 .footer-soc-link {
     width: 100%;
