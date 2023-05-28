@@ -475,23 +475,25 @@ img{
 
     border: 1px solid var(--customer-color);
     border-radius: 4px;
+    color: var(--customer-color)
 
 }
 
 .logo-icon{
     /* width: 104px;
     height: 56px; */
-    fill: var(--customer-color);
+    fill: currentColor;
 }
 
 .company-link:hover,
 .company-link:focus{
     border-color: var(--hover-color);
+    color:var(--hover-color)
 }
 
 .company-link:hover .logo-icon,
 .company-link:focus  .logo-icon{
-    fill: var(--hover-color);
+    fill: currentColor;
 }
 
 
@@ -532,7 +534,11 @@ img{
 .footer-container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    /* gap: 120px; */
+}
+
+.footer-logo-p{
+    margin-right: 120px;
 }
 
 .footer-soc-p {
