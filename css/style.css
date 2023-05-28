@@ -169,6 +169,7 @@ body{
     background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 
     
 }
@@ -668,7 +669,6 @@ margin: -1px;
 }
 
 .link-card{
-    text-decoration: none;
     color: var(--main-color);
     display: block;
     
